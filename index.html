@@ -2,7 +2,7 @@
 body {
 Background-image: url('https://whittlebitofdesign.github.io/homepage/images/redback.jpeg');
 color: #e8e2d3;
-font-size: 65px;
+font-size: 50px;
 font-family: Garamond, serif; Arial, Helvetica, sans-serif;
 }
 
@@ -11,12 +11,28 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #e8e2d3;
+}
 </style>
 
 <html>
-<br>
-  <br>
-  <p style="text-align:center"> Welcome to the Gallery </p>
-  <img src="https://whittlebitofdesign.github.io/homepage/images/gframe.png" class="center">
+  <p style="text-align:center"> Welcome</p>
+  <p style="text-align:center"> To The</p>
+  <p style="text-align:center"> Whittle Museum </p>
+ 
+ <div class="container"> <img src="https://whittlebitofdesign.github.io/homepage/images/gframe.png" class="center">
+ 
+ <div class="centered"> <a href="https://whittlebitofdesign.github.io/homepage/secondpage.html">Galleries </a>
+ </div>
+ </div>
     
 </html>
